@@ -10,11 +10,12 @@
 <body>
 <header>
     <div class="logo">
-        <img src="images/logo.png" alt="Logo" id="main-logo">
+        <img src="../images/index/logo.png" alt="Logo" id="main-logo">
         <span id="main-logo-text">Medical</span>
     </div>
     <div class="authorization">
         <a href="" id="login-button">Login</a>
+        <a href="" id="register-button">Register</a>
     </div>
     <div class="settings">
         <a href="" id="settings-button">
@@ -26,31 +27,57 @@
     </div>
 </header>
 <main>
-    <div id="login">
-        <h1>Login to your account</h1>
-    <form action="/login" method="POST">
-        <label for="username">Name</label><br>
-        <input type="text" id="username" name="username" required><br>
-
-        <label for="password">Password</label><br>
-        <input type="password" id="password" name="password" required><br>
-
-        <input type="submit" value="Continue">
-    </form>
-
-    <p><a href="/password_reset">Forget password</a></p>
-    <p><input type="checkbox" id="remember_me" name="remember_me"> <label for="remember_me">Remember</label></p>
-        </div>
-    <div id="info">
-        <h1>Info</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse sed urna in justo euismod condimentum.</p>
-        <img src="images/login/banner.png" alt="Banner">
-    </div>
+    <section id="all_facilities">
+            <h1>Clinic Facilities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aspernatur.</p>
+            <img src="../images/all_facilities/banner.png" alt="Banner">
+        </section>
+    <section id="facility1">
+            <img src="../images/all_facilities/facility1.png" alt="Facility1">
+            <h3>Consulting</h3>
+            <span>Lorem ipsum dolor sit amet.</span>
+        <ul>
+            <li>Planned consultation</li>
+            <li>Diagnostic consultation</li>
+            <li>Repeated consultation</li>
+            <li>Consultation after surgery</li>
+            <li>Consultation on the history of the disease</li>
+        </ul>
+    </section>
+    <section id="facility2">
+            <img src="../images/all_facilities/facility2.png" alt="Facility2">
+            <h3>Diagnostics</h3>
+            <span>Lorem ipsum dolor sit amet.</span>
+        <ul>
+            <li>Ultrasound diagnostics</li>
+            <li>Magnetic resonance imaging</li>
+            <li>Computed tomography</li>
+            <li>Gastroscopy</li>
+            <li>Colposcopy</li>
+            <li>Anoscopy</li>
+            <li>Colonoscopy</li>
+            <li>Endoscopy</li>
+        </ul>
+    </section>
+    <section id="facility3">
+            <img src="../images/all_facilities/facility3.png" alt="Facility3">
+            <h3>Laboratory research</h3>
+            <span>Lorem ipsum dolor sit amet.</span>
+        <ul>
+            <li>Blood test</li>
+        <li>Urine analysis</li>
+        <li>Stool analysis</li>
+        <li>Microscopy of urogenital secretions</li>
+        <li>Express-test for covid</li>
+        <li>A complex microbiological study with an antibioticogram</li>
+        <li>Tumor markers</li>
+        </ul>
+    </section>
 </main>
 <footer>
     <div id="footer-head">
         <div id="footer-head-logo">
-            <img src="images/logo.png" alt="Logo">
+            <img src="../images/index/logo.png" alt="Logo">
             <span>Medical</span>
         </div>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, excepturi.</span>
