@@ -34,3 +34,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
     font-weight: 900;
 }
+
+h1 {
+    font-size: 36px;
+    line-height: 10vh;
+}
