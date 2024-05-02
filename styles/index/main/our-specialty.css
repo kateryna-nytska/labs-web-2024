@@ -1,0 +1,52 @@
+#our-speciality {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        grid-column: 2;
+        width: 50%;
+        justify-self: end;
+        align-self: center;
+    }
+}
+
+#our-speciality-body {
+    grid-column: 1;
+
+    span {
+        font-size: 17px;
+    }
+}
+
+#specialities {
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4vh 4vh 4vh;
+    gap: 1vw;
+
+    p {
+        color: var(--color-text-disabled);
+        border-radius: 15px;
+        border: 1px solid var(--color-text-disabled);
+        line-height: 3.5vh;
+        text-align: center;
+    }
+
+    p:hover {
+        border: 1px solid var(--color-primary-main);
+        color: var(--color-primary-main);
+    }
+
+    .middle-specialities {
+        background-color: var(--color-primary-main);
+        color: var(--color-default-light);
+        border: 0;
+        line-height: 4vh;
+    }
+
+    .middle-specialities:hover {
+        border: 1px solid var(--color-text-disabled);
+        color: var(--color-text-disabled);
+    }
+}
