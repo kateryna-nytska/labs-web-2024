@@ -1,0 +1,144 @@
+#ask-doctors {
+    display: grid;
+    grid-template-columns: 20vw 2fr;
+    margin-top: 10vh;
+}
+
+#ask-doctors-menu {
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 13vh repeat(5, 8vh);
+
+    h1 {
+        line-height: 7vh;
+    }
+
+    button {
+        width: 50%;
+        height: 50%;
+        align-self: center;
+        outline: 0;
+        border: 0;
+        border-radius: 20px;
+        background-color: var(--color-primary-light);
+        color: var(--color-primary-dark);
+        text-align: start;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+
+    button:hover {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+#ask-doctors-doctors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+    grid-template-rows: 20vh 20vh 20vh;
+    row-gap: 3vh;
+}
+
+.ask-doctors-doctor {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    display: grid;
+    padding: 10px;
+    border-radius: 15px;
+    grid-template-rows: 13vh 5vh;
+
+    .doctor-contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+
+        button {
+            width: 60%;
+            height: 60%;
+            outline: none;
+            border: 0;
+            color: var(--color-default-light);
+            font-weight: 700;
+            border-radius: 10px;
+            border-top-left-radius: 0px;
+            background-color: var(--color-secondary-main);
+            margin-top: 0.7vh;
+        }
+
+        button:hover {
+            border: 3px solid var(--color-secondary-main);
+            background-color: var(--color-default-light);
+            color: var(--color-secondary-main);
+            cursor: pointer;
+        }
+    }
+}
+
+.ask-doctors-doctor:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.doctor-info {
+    display: grid;
+    grid-template-columns: 1.7fr 4fr;
+
+    img {
+        grid-column: 1;
+        width: 6vw;
+        border-radius: 50%;
+        border-top-left-radius: 0px;
+    }
+
+    .doctor-name-and-position {
+        grid-column: 2;
+        display: grid;
+
+        span {
+            align-self: center;
+            justify-self: start;
+            color: var(--color-text-secondary);
+        }
+
+        .doctor-name {
+            align-self: end;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+        }
+    }
+}
+
+.doctor-contacts {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    font-size: 15px;
+
+    span {
+        color: var(--color-text-secondary);
+    }
+
+    .rating {
+        line-height: 3vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: end;
+
+        img {
+            grid-column: 1;
+            height: 4vh;
+        }
+    }
+
+    .experience {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: end;
+        justify-items: center;
+
+        img {
+            grid-column: 1;
+        }
+    }
+
+}
