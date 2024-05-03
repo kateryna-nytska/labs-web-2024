@@ -1,0 +1,106 @@
+#our-clinics {
+    display: grid;
+    grid-template-rows: 20vh 70vh;
+}
+
+#our-clinics-head {
+    grid-row: 1;
+
+    span {
+        font-size: 17px;
+    }
+}
+
+#our-clinics-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7vw;
+    grid-template-rows: 20vh 20vh 20vh;
+    row-gap: 3.3vh;
+}
+
+.clinic {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1vw;
+
+    img {
+        grid-column: 1;
+        width: 100%;
+        align-self: center;
+        justify-self: center;
+    }
+
+    span {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+}
+
+.clinic:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    .clinic-name {
+        color: var(--color-primary-dark);
+    }
+}
+
+.clinic-info {
+    display: grid;
+
+    .clinic-name {
+        align-self: center;
+        font-size: 17px;
+        font-weight: 700;
+        color: var(--color-text-primary);
+    }
+
+    .clinic-contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        svg {
+            height: 100%;
+        }
+        span {
+            line-height: 100%;
+            justify-self: start;
+        }
+
+        div {
+            display: grid;
+            grid-template-columns: 1fr 9fr;
+            gap: 0.5vw;
+            align-items: center;
+            justify-items: center;
+        }
+    }
+
+    button {
+        outline: none;
+        border: 2px solid var(--color-secondary-main);
+        color: var(--color-secondary-main);
+        border-radius: 20px;
+        font-size: 13px;
+        line-height: 100%;
+        font-weight: 700;
+        height: 90%;
+    }
+
+    button:hover {
+        background-color: var(--color-secondary-main);
+        color: var(--color-default-light);
+        cursor: pointer;
+    }
+}
+
+.clinic-address {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    color: var(--color-text-secondary);
+    align-self: center;
+}
