@@ -1,0 +1,150 @@
+#people-testimonials {
+    display: grid;
+    grid-template-rows: 20vh 50vh 20vh;
+    align-items: center;
+}
+
+#people-testimonials-head {
+    grid-row: 1;
+
+    span {
+        font-size: 17px;
+    }
+}
+
+#people-testimonials-body {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3vw;
+
+    #reviews {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3vw;
+        justify-items: center;
+    }
+
+    #people-testimonials-banner {
+        height: 40vh;
+        align-self: center;
+    }
+}
+
+.review {
+    background-color: rgba(0, 0, 0, 0.03);
+    height: 40vh;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 25vh auto;
+    gap: 1vh;
+
+
+    .rating {
+        grid-row: 1;
+        display: grid;
+        border-radius: 20px;
+        border-bottom-right-radius: 0;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+
+        p {
+            align-self: start;
+            justify-items: center;
+            line-height: 3vh;
+            font-size: 17px;
+        }
+
+        img {
+            width: 8vw;
+            align-self: end;
+        }
+    }
+
+    .patient-profile-info {
+        background-color: transparent;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1.5vw;
+        align-items: center;
+        justify-items: end;
+
+
+        img {
+            width: 7vw;
+            align-self: end;
+            border-radius: 50%;
+        }
+
+        p {
+            background-color: rgba(0, 0, 0, 0.03);
+            color: var(--color-text-secondary);
+        }
+
+        .patient-name {
+
+            color: var(--color-text-primary);
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 3vw;
+        }
+    }
+}
+
+.review:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    .patient-name {
+        color: var(--color-primary-dark);
+    }
+}
+
+#create-appointment-text {
+    height: 15vh;
+    background: linear-gradient(to bottom right, var(--color-primary-main), var(--color-secondary-light));
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    #appointment-text {
+        background: transparent;
+        display: grid;
+        grid-template-rows: 100% auto;
+        align-items: center;
+
+        div {
+            background: transparent;
+            margin-bottom: 3%;
+        }
+
+        h2, span {
+            background: transparent;
+        }
+
+        h2 {
+            line-height: 7vh;
+        }
+    }
+
+    button {
+        width: 80%;
+        height: 50%;
+        border-radius: 50px;
+        align-self: center;
+        justify-self: center;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        color: var(--color-primary-main);
+        font-weight: 700;
+    }
+
+    button:hover {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+    }
+}
