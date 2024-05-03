@@ -30,7 +30,7 @@
 
     img {
         grid-column: 1;
-        width: 100%;
+        width: 90%;
         align-self: center;
         justify-self: center;
     }
