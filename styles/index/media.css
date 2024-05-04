@@ -1,0 +1,251 @@
+@media only screen and (max-width: 1024px) {
+    header {
+        grid-template-columns: 2fr repeat(6, 1fr) 2fr 1fr;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .authorization {
+        grid-column: 8;
+    }
+
+    .settings {
+        grid-column: 9;
+    }
+
+    .header-nav-link {
+        font-size: 11px;
+    }
+
+    #main-info-text {
+        p {
+          font-size: 23px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        margin-top: 5vh;
+    }
+
+    header {
+        grid-template-columns: 2fr repeat(6, 1fr) 2fr;
+    }
+
+    #main-logo-text {
+        font-size: 20px;
+    }
+
+    .settings {
+        display: none;
+    }
+
+    .header-nav-link {
+        font-size: 9px;
+        font-weight: 700;
+    }
+
+    #header-register-button {
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    #main-info-text {
+        p {
+            font-size: 19px;
+        }
+    }
+
+    #insurance-plans {
+        h3 {
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 11px;
+        }
+    }
+
+    .numbers-upper-row {
+        .numbers-upper-row-text {
+            h3 {
+                font-size: 17px;
+            }
+
+            span {
+                font-size: 18px;
+            }
+        }
+
+        img {
+            height: 25%;
+            justify-self: normal;
+        }
+    }
+
+    .numbers-item {
+        span {
+            font-size: 14px;
+        }
+    }
+
+    #clinic-facilities-text {
+        p {
+            font-size: 15px;
+        }
+
+        h1 {
+            line-height: 7vh;
+        }
+    }
+    #clinic-facilities-head {
+        a {
+            font-size: 15px;
+        }
+    }
+
+    #specialities {
+        p {
+            font-size: 13px;
+        }
+    }
+
+    #our-speciality-body {
+        span {
+            font-size: 15px;
+        }
+
+        h1 {
+            line-height: 7vh;
+        }
+    }
+    #ask-doctors-menu {
+        button {
+            font-size: 11px;
+        }
+    }
+
+    .ask-doctors-doctor {
+        grid-template-rows: 12vh 5vh;
+    }
+
+    .doctor-contacts {
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .doctor-contacts {
+        img {
+            height: 3vh;
+        }
+    }
+
+    .doctor-info {
+        .doctor-name-and-position {
+            .doctor-name {
+                font-size: 17px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .review {
+        & .rating {
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+    #people-testimonials-body {
+        grid-template-columns: 2fr 1fr;
+        gap: 2vw;
+    }
+
+    #people-testimonials-body {
+        #people-testimonials-banner {
+            height: 30vh;
+            align-self: center;
+        }
+    }
+
+    .review {
+        .patient-profile-info {
+            .patient-name {
+                font-size: 17px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    #create-appointment-text {
+        button {
+            font-size: 11px;
+        }
+    }
+
+    .clinic-info {
+        .clinic-name {
+            font-size: 15px;
+        }
+
+        .clinic-contact {
+            span {
+                line-height: 100%;
+                justify-self: start;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .clinic {
+        span {
+            font-size: 10px;
+            font-weight: 700;
+        }
+    }
+
+    #footer-head {
+        #footer-head-logo {
+            span {
+                font-size: 20px;
+            }
+        }
+
+        span {
+            font-size: 15px;
+        }
+    }
+
+    #footer-links {
+        h3 {
+            font-size: 14px;
+        }
+    }
+
+    #footer-links {
+        li {
+            font-size: 13px;
+        }
+    }
+
+    #footer-contacts {
+        select {
+            font-size: 12px;
+        }
+    }
+}
