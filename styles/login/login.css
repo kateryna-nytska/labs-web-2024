@@ -1,0 +1,108 @@
+@import "../assets.css";
+@import "../index/header.css";
+@import "../index/footer.css";
+
+.authorization {
+    justify-self: end;
+}
+
+main {
+    margin: 0 8%;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 5vw;
+}
+
+#login {
+    border: 2px solid var(--color-primary-main);
+    border-radius: 20px;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 5vh auto;
+
+    h1 {
+        font-size: 23px;
+        line-height: 3vh;
+        justify-self: center;
+        align-self: start;
+    }
+}
+
+form {
+    display: grid;
+    gap: 1vh;
+}
+
+input[type=text], input[type=password] {
+    align-self: center;
+    height: 50%;
+    border: none;
+    padding: 0 5px;
+    font-size: 17px;
+    line-height: 100%;
+    border-bottom: 1px solid var(--color-text-disabled);
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border-bottom: 1px solid var(--color-primary-main);
+}
+
+#form-row-3 {
+    align-self: start;
+    display: grid;
+    grid-template-columns: 1fr 6fr 15fr;
+
+    span {
+        line-height: 20px;
+    }
+
+    a {
+        justify-self: end;
+        text-decoration: none;
+        color: var(--color-primary-main);
+    }
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type=submit] {
+    width: 50%;
+    height: 70%;
+    align-self: end;
+    justify-self: center;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--color-primary-main);
+    color: var(--color-default-light);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#info {
+    h1 {
+        color: var(--color-primary-dark);
+        font-size: 20px;
+    }
+    p {
+        color: var(--color-text-secondary);
+    }
+    h1, p {
+        text-align: center;
+    }
+    img {
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+}

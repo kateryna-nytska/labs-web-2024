@@ -1,0 +1,48 @@
+@import "../index/header.css";
+@import "../index/footer.css";
+@import "../login/login.css";
+
+#header-register-button {
+    color: var(--color-default-light);
+    text-transform: uppercase;
+}
+
+#header-register-button:hover {
+    color: var(--color-secondary-main);
+}
+
+#registration {
+    border: 2px solid var(--color-primary-main);
+    border-radius: 20px;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 5vh auto;
+
+    h1 {
+        font-size: 23px;
+        line-height: 3vh;
+        justify-self: center;
+        align-self: start;
+    }
+}
+
+input[type=email] {
+    align-self: center;
+    height: 50%;
+    border: none;
+    padding: 0 5px;
+    font-size: 17px;
+    line-height: 100%;
+    border-bottom: 1px solid var(--color-text-disabled);
+}
+
+input[type=email]:focus {
+    outline: none;
+    border-bottom: 1px solid var(--color-primary-main);
+}
+
+#password-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+}
