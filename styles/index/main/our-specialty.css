@@ -1,4 +1,4 @@
-#our-speciality {
+.our-speciality {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -10,7 +10,7 @@
     }
 }
 
-#our-speciality-body {
+.our-speciality-body {
     grid-column: 1;
 
     span {
@@ -18,7 +18,7 @@
     }
 }
 
-#specialities {
+.specialities {
     margin-top: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

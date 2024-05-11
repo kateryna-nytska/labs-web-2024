@@ -1,10 +1,10 @@
-#people-testimonials {
+.people-testimonials {
     display: grid;
     grid-template-rows: 20vh 50vh 20vh;
     align-items: center;
 }
 
-#people-testimonials-head {
+.people-testimonials-head {
     grid-row: 1;
 
     span {
@@ -12,20 +12,20 @@
     }
 }
 
-#people-testimonials-body {
+.people-testimonials-body {
     grid-row: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3vw;
 
-    #reviews {
+    .reviews {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 3vw;
         justify-items: center;
     }
 
-    #people-testimonials-banner {
+    .people-testimonials-banner {
         height: 40vh;
         align-self: center;
     }
@@ -101,7 +101,7 @@
     }
 }
 
-#create-appointment-text {
+.create-appointment-text {
     height: 15vh;
     background: linear-gradient(to bottom right, var(--color-primary-main), var(--color-secondary-light));
     padding: 20px;
@@ -110,7 +110,7 @@
     display: grid;
     grid-template-columns: auto auto;
 
-    #appointment-text {
+    .appointment-text {
         background: transparent;
         display: grid;
         grid-template-rows: 100% auto;

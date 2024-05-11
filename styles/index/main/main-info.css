@@ -1,4 +1,4 @@
-#main-info {
+.main-info {
     display: grid;
     grid-template-rows: 50vh 20vh 5vh 20vh;
     gap: 5vh;
@@ -9,14 +9,14 @@ h1 {
     line-height: 10vh;
 }
 
-#info {
+.info {
     grid-row: 1;
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
 }
 
-#main-info-text {
+.main-info-text {
     grid-column: 1;
     width: 70%;
 
@@ -26,13 +26,13 @@ h1 {
     }
 }
 
-#main-info-banner {
+.main-info-banner {
     width: 45vw;
     grid-column: 2;
     justify-self: end;
 }
 
-#insurance-plans {
+.insurance-plans {
     grid-row: 2;
     display: grid;
     grid-template-columns: 1.35fr 2fr 2fr 2fr 1fr;
@@ -66,26 +66,26 @@ h1 {
     }
 }
 
-#business-plan {
+.business-plan {
     grid-column: 2;
 }
 
-#adult-plan {
+.adult-plan {
     grid-column: 3;
 }
 
-#child-plan {
+.child-plan {
     grid-column: 4;
 }
 
-#numbers {
+.numbers {
     grid-row: 4;
     display: grid;
     grid-template-columns: 1.35fr 2fr 2fr 2fr 1fr;
     align-items: center;
 }
 
-#doctors {
+.doctors {
     grid-column: 2;
 }
 

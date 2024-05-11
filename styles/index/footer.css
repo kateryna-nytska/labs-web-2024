@@ -6,7 +6,7 @@ footer {
     margin-top: 10vh;
 }
 
-#footer-head {
+.footer-head {
     display: grid;
     grid-template-rows: 10vh 10vh 7vh;
 
@@ -15,7 +15,7 @@ footer {
         color: var(--color-text-secondary);
     }
 
-    #footer-head-logo {
+    .footer-head-logo {
         display: grid;
         grid-template-columns: 1fr 4fr;
 
@@ -36,7 +36,7 @@ footer {
 
 }
 
-#footer-links {
+.footer-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
@@ -60,12 +60,12 @@ footer {
         cursor: pointer;
     }
 
-    #footer-links-company {
+    .footer-links-company {
         grid-column: 1;
     }
 }
 
-#footer-contacts {
+.footer-contacts {
     align-self: start;
     margin-top: 2vh;
     justify-self: center;

@@ -1,10 +1,10 @@
-#ask-doctors {
+.ask-doctors {
     display: grid;
     grid-template-columns: 20vw 2fr;
     margin-top: 10vh;
 }
 
-#ask-doctors-menu {
+.ask-doctors-menu {
     grid-column: 1;
     display: grid;
     grid-template-rows: 13vh repeat(5, 8vh);
@@ -32,7 +32,7 @@
     }
 }
 
-#ask-doctors-doctors {
+.ask-doctors-doctors {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3vw;

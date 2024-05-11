@@ -1,9 +1,9 @@
-#our-clinics {
+.our-clinics {
     display: grid;
     grid-template-rows: 20vh 70vh;
 }
 
-#our-clinics-head {
+.our-clinics-head {
     grid-row: 1;
 
     span {
@@ -11,7 +11,7 @@
     }
 }
 
-#our-clinics-body {
+.our-clinics-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 7vw;

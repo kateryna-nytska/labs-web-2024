@@ -12,17 +12,17 @@
 <body>
 <header>
     <div class="logo">
-        <img src="../images/index/logo.png" alt="Logo" id="main-logo">
-        <a href="../index.html" style="text-decoration: none;" id="main-logo-text">Medical</a>
+        <img src="../images/index/logo.png" alt="Logo" class="main-logo">
+        <a href="../index.html" style="text-decoration: none;" class="main-logo-text">Medical</a>
     </div>
     <div class="authorization">
-        <div id="header-register-button">
-            <a href="register.html" id="register-button">Register</a>
+        <div class="header-register-button">
+            <a href="register.html" class="register-button">Register</a>
         </div>
     </div>
     <div class="settings">
-        <a href="" id="settings-button">
-            <svg id="settings-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <a href="" class="settings-button">
+            <svg class="settings-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="12" r="3"></circle>
                 <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
             </svg>
@@ -30,14 +30,14 @@
     </div>
 </header>
 <main>
-    <div id="login">
+    <div class="login">
         <h1>Login to Your Account</h1>
         <form action="/login" method="POST">
-            <input type="text" id="username" name="username" required placeholder="Name">
-            <input type="password" id="password" name="password" required placeholder="Password">
+            <input type="text" name="username" required placeholder="Name">
+            <input type="password" name="password" required placeholder="Password">
 
-            <div id="form-row-3">
-                <input type="checkbox" id="remember-me" name="remember_me">
+            <div class="form-row-3">
+                <input type="checkbox" name="remember_me">
                 <span>Remember</span>
                 <a href="#">Forgot password?</a>
             </div>
@@ -45,23 +45,23 @@
             <input type="submit" value="Continue">
         </form>
     </div>
-    <div id="info">
+    <div class="info">
         <h1>Lorem ipsum dolor sit amet</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse sed urna in justo euismod condimentum.</p>
         <img src="../images/login/banner.png" alt="Banner">
     </div>
 </main>
 <footer>
-    <div id="footer-head">
-        <div id="footer-head-logo">
+    <div class="footer-head">
+        <div class="footer-head-logo">
             <img src="../images/index/logo.png" alt="Logo">
             <span>Medical</span>
         </div>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, excepturi.</span>
         <span>© Medical 2024</span>
     </div>
-    <div id="footer-links">
-        <div id="footer-links-company">
+    <div class="footer-links">
+        <div class="footer-links-company">
             <h3>Company</h3>
             <ul>
                 <li>Lorem ipsum</li>
@@ -70,7 +70,7 @@
                 <li>Lorem ipsum</li>
             </ul>
         </div>
-        <div id="footer-links-services">
+        <div class="footer-links-services">
             <h3>Services</h3>
             <ul>
                 <li>Lorem ipsum</li>
@@ -79,7 +79,7 @@
                 <li>Lorem ipsum</li>
             </ul>
         </div>
-        <div id="footer-links-resources">
+        <div class="footer-links-resources">
             <h3>Resources</h3>
             <ul>
                 <li>Lorem ipsum</li>
@@ -88,8 +88,8 @@
             </ul>
         </div>
     </div>
-    <div id="footer-contacts">
-        <select name="language" id="language">
+    <div class="footer-contacts">
+        <select name="language" class="language">
             <option value="ukrainian">Ukrainian-Ua</option>
             <option value="english">English-En</option>
         </select>

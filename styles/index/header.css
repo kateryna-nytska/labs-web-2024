@@ -21,13 +21,13 @@ header {
     margin: 0;
 }
 
-#main-logo {
+.main-logo {
     width: 35px;
     grid-column: 1;
     justify-self: end;
 }
 
-#main-logo-text {
+.main-logo-text {
     grid-column: 2;
     justify-self: start;
     font-family: var(--font-main);
@@ -50,27 +50,27 @@ header {
     border-bottom: 3px solid var(--color-primary-main);
 }
 
-#header-item-1 {
+.header-item-1 {
     grid-column: 2;
 }
 
-#header-item-2 {
+.header-item-2 {
     grid-column: 3;
 }
 
-#header-item-3 {
+.header-item-3 {
     grid-column: 4;
 }
 
-#header-item-4 {
+.header-item-4 {
     grid-column: 5;
 }
 
-#header-item-5 {
+.header-item-5 {
     grid-column: 6;
 }
 
-#header-item-6 {
+.header-item-6 {
     grid-column: 7;
 }
 
@@ -83,35 +83,35 @@ header {
     font-weight: 700;
 }
 
-#login-button {
+.login-button {
     text-transform: uppercase;
 }
 
-#login-button:hover {
+.login-button:hover {
     color: var(--color-primary-main);
     border-bottom: 3px solid var(--color-primary-main);
 }
 
-#header-register-button {
+.header-register-button {
     display: inline;
     padding: 5px 20px;
     border-radius: 20px;
     background-color: var(--color-secondary-main);
     margin-left: 20px;
 
-    #register-button{
+    .register-button{
         background-color: var(--color-secondary-main);
         color: var(--color-default-light);
         text-transform: uppercase;
     }
 }
 
-#header-register-button:hover {
+.header-register-button:hover {
     background-color: var(--color-default-light);
     border: 3px solid var(--color-secondary-main);
     margin-left: 15px;
 
-    #register-button {
+    .register-button {
         background-color: var(--color-default-light);
         color: var(--color-secondary-main);
     }
@@ -127,11 +127,11 @@ header {
     }
 }
 
-#settings-icon {
+.settings-icon {
     transition: transform 0.3s;
 }
 
-#settings-icon:hover {
+.settings-icon:hover {
     stroke: var(--color-text-disabled);
     transform: rotate(90deg);
 }
